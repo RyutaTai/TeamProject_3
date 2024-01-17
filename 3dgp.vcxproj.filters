@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TAI">
+      <UniqueIdentifier>{7618f0df-09fe-4e1e-b0ba-0dfdf1a5a88d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TAI\Game">
+      <UniqueIdentifier>{26fe311a-209b-45d3-b5ae-1d6ae7a7804d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TAI\Graphics">
+      <UniqueIdentifier>{71bb1bf0-06eb-422e-af50-179b74c662cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TAI\Resources">
+      <UniqueIdentifier>{a239d1d7-a6a6-4f4d-8fcc-d603b0cc9370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TAI\Core">
+      <UniqueIdentifier>{05c4e814-5c76-41fa-a3be-337fa2adaa7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TAI\Others">
+      <UniqueIdentifier>{ec4a4808-d1eb-4188-baf5-6d9dc8773756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TAI\Shaders">
+      <UniqueIdentifier>{9f64f4ff-d9e0-43d7-88e1-13e6d3656a89}</UniqueIdentifier>
+      <Extensions>hlsl;hlsli</Extensions>
+    </Filter>
+    <Filter Include="TAI\Scenes">
+      <UniqueIdentifier>{44163571-bdbc-444e-b458-de2ea40e2188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TAI\Input">
+      <UniqueIdentifier>{b0f4ca77-f633-4800-9da3-e7a72acd6b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{5d2ed881-4062-49d0-a1ce-86240074d016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TAI\Audio">
+      <UniqueIdentifier>{edc006d7-41ba-4a35-af78-be429e0963e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Core\Framework.cpp">
+      <Filter>TAI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Main.cpp">
+      <Filter>TAI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\FrameBuffer.cpp">
+      <Filter>TAI\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\FullScreenQuad.cpp">
+      <Filter>TAI\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Resources\GeometricPrimitive.cpp">
+      <Filter>TAI\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Resources\SkinnedMesh.cpp">
+      <Filter>TAI\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Resources\Sprite.cpp">
+      <Filter>TAI\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Resources\SpriteBatch.cpp">
+      <Filter>TAI\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Resources\StaticMesh.cpp">
+      <Filter>TAI\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Resources\Texture.cpp">
+      <Filter>TAI\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameObject.cpp">
+      <Filter>TAI\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Others\Transform.cpp">
+      <Filter>TAI\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Graphics.cpp">
+      <Filter>TAI\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\SceneManager.cpp">
+      <Filter>TAI\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\SceneTitle.cpp">
+      <Filter>TAI\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\SceneGame.cpp">
+      <Filter>TAI\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_demo.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_impl_dx11.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_tables.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\ImGuiCtrl.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Camera.cpp">
+      <Filter>TAI\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input\GamePad.cpp">
+      <Filter>TAI\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Stage.cpp">
+      <Filter>TAI\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\SceneLoading.cpp">
+      <Filter>TAI\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Piece.cpp">
+      <Filter>TAI\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\PieceManager.cpp">
+      <Filter>TAI\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Audio\Audio.cpp">
+      <Filter>TAI\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Shader.cpp">
+      <Filter>TAI\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Core\Framework.h">
+      <Filter>TAI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\HighResolutionTimer.h">
+      <Filter>TAI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\FrameBuffer.h">
+      <Filter>TAI\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\FullScreenQuad.h">
+      <Filter>TAI\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Shader.h">
+      <Filter>TAI\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Others\Misc.h">
+      <Filter>TAI\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resources\GeometricPrimitive.h">
+      <Filter>TAI\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resources\SkinnedMesh.h">
+      <Filter>TAI\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resources\Sprite.h">
+      <Filter>TAI\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resources\SpriteBatch.h">
+      <Filter>TAI\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resources\StaticMesh.h">
+      <Filter>TAI\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resources\Texture.h">
+      <Filter>TAI\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameObject.h">
+      <Filter>TAI\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Others\Transform.h">
+      <Filter>TAI\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Graphics.h">
+      <Filter>TAI\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\Scene.h">
+      <Filter>TAI\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\SceneManager.h">
+      <Filter>TAI\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\SceneTitle.h">
+      <Filter>TAI\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\SceneGame.h">
+      <Filter>TAI\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imconfig.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imgui_impl_dx11.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imgui_impl_win32.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\ImGuiCtrl.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imstb_rectpack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imstb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imstb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Camera.h">
+      <Filter>TAI\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input\GamePad.h">
+      <Filter>TAI\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Stage.h">
+      <Filter>TAI\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\SceneLoading.h">
+      <Filter>TAI\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Others\MathHelper.h">
+      <Filter>TAI\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Piece.h">
+      <Filter>TAI\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\PieceManager.h">
+      <Filter>TAI\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Audio\Audio.h">
+      <Filter>TAI\Audio</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Source\Shaders\GeometricPrimitivePs.hlsl">
+      <Filter>TAI\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shaders\GeometricPrimitiveVs.hlsl">
+      <Filter>TAI\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shaders\LuminanceExtractionPs.hlsl">
+      <Filter>TAI\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shaders\SkinnedMeshPs.hlsl">
+      <Filter>TAI\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shaders\SkinnedMeshVs.hlsl">
+      <Filter>TAI\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shaders\SpritePs.hlsl">
+      <Filter>TAI\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shaders\SpriteVs.hlsl">
+      <Filter>TAI\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shaders\StaticMeshPs.hlsl">
+      <Filter>TAI\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shaders\StaticMeshVs.hlsl">
+      <Filter>TAI\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shaders\BlurPs.hlsl">
+      <Filter>TAI\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shaders\FullscreenQuadPs.hlsl">
+      <Filter>TAI\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shaders\FullscreenQuadVs.hlsl">
+      <Filter>TAI\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Shaders\FullscreenQuad.hlsli">
+      <Filter>TAI\Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\GeometricPrimitive.hlsli">
+      <Filter>TAI\Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\SkinnedMesh.hlsli">
+      <Filter>TAI\Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\Sprite.hlsli">
+      <Filter>TAI\Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\StaticMesh.hlsli">
+      <Filter>TAI\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

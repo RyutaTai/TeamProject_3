@@ -1,0 +1,11 @@
+3dgp.vcxproj.user
+.vs/
+External/
+x64/
+*.wav
+*.png
+*.fbx
+*.cereal
+Resources/old/
+Resources/Model/Court/textures_without_shadows/fence1_alpha.png~
+Resources/Shader/
